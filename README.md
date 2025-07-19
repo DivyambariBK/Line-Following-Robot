@@ -42,6 +42,9 @@ The **Line Follower Robot** autonomously follows a marked path by using **infrar
 - The **L298N Motor Driver** receives control signals and drives the two DC motors.
 - Enables proper voltage/current to motors as 8051 cannot drive motors directly.
 
+<img width="998" height="474" alt="image" src="https://github.com/user-attachments/assets/1ea8170c-2d38-4c2f-8697-4c67155bbe56" />
+
+
 ---
 
 ## ⚡ Working Principle
@@ -56,7 +59,36 @@ The **Line Follower Robot** autonomously follows a marked path by using **infrar
 - **0** → Sensor on black line (low reflection)
 - **1** → Sensor on white surface (high reflection)
 
+<img width="425" height="339" alt="image" src="https://github.com/user-attachments/assets/3b74ac8e-d7cd-4623-b8c8-989b04f7eb1d" />
+
+<img width="423" height="329" alt="image" src="https://github.com/user-attachments/assets/0d7919f1-082b-4709-bfaa-3c3cd4832847" />
+
+<img width="339" height="359" alt="image" src="https://github.com/user-attachments/assets/c9573389-0871-4dd6-9278-63e8b9af0e23" />
+
+<img width="380" height="326" alt="image" src="https://github.com/user-attachments/assets/dfa3d794-8f89-4600-aa6a-47ea753be4ea" />
+
+---
+## Circuit Diagram
+
+<img width="984" height="642" alt="image" src="https://github.com/user-attachments/assets/03011fd2-2325-4127-9974-c1887ed2add8" />
+
 ---
 
-## 👨‍💻 Code (Keil C for 8051 Microcontroller)
+## ✅ Expected Outcomes
+- Robot follows the **black line accurately**.
+- **Real-time autonomous decision-making** with basic control logic.
+- Basic introduction to **8051 programming**, **motor driving**, and **IR sensor interfacing**.
+
+---
+
+## 📊 Summary of Learning
+- Gained **hands-on experience** in embedded systems, hardware interfacing, and basic robotics.
+- Understood the application of **sensors, comparators, motor drivers**, and **microcontrollers** in real-world projects.
+- Explored the concept of **real-time data processing** in autonomous robotic systems.
+
+---
+
+## 🎁 Conclusion
+The **Line Following Robot** using the **8051 microcontroller** successfully demonstrates **autonomous navigation principles** using basic embedded system concepts. By integrating **IR sensors**, **L298N motor driver**, and **8051**, this project shows how **simple yet effective robotic solutions** can be designed with **fundamental electronics and programming knowledge**.
+
 
